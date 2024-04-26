@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+section{
+    height: 1100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box1{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    left:40px;
+}
+.put{
+    height: 30px;
+    width: 400px;
+}
+.last{
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.foot{
+    height: 30px;
+    width:400px;
+    background-color: green;
+    color: white;
+}

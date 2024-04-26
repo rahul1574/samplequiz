@@ -1,0 +1,129 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    height: 650px;
+    background-image: url(/img4.avif);
+    background-size: contain;
+}
+.box{
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+    background-color: #1a4e79;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: 150px;
+    left: -800px;
+    animation: move 2s ease forwards;
+}
+@keyframes move{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(1300px);
+    }
+}
+h2{
+    margin: 20px;
+}
+h1{
+    margin: 20px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#time{
+    height: 10px;
+    width:500px;
+    /* background-color: green; */
+    position: relative;
+    animation: time 15s ease 2s forwards;
+}
+@keyframes time{
+    from{
+        width:0px;
+        background-color: green;
+    }
+    to{
+        width:500px;
+        background-color: red;
+    }
+}
+#option{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   align-items: center;
+}
+#wrong1{
+    height: 40px;
+    width:400px;
+}
+#wrong1:hover{
+    background-color: green;
+}
+#wrong1:active{
+    background-color:blue;
+    color: white;
+}
+#wrong2{
+    height: 40px;
+    width:400px;
+}
+#wrong2:hover{
+    background-color: green;
+}
+#wrong2:active{
+    background-color:blue;
+    color: white;
+}
+#wrong3{
+    height: 40px;
+    width:400px;
+}
+#wrong3:hover{
+    background-color: green;
+}
+#wrong3:active{
+    background-color:blue;
+    color: white;
+}
+.back{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+}
+#one{
+    height: 40px;
+    width:200px;
+}
+#correct{
+    height: 40px;
+    width:400px;
+}
+#correct:hover{
+    background-color: green;
+}
+#correct:active{
+    background-color:blue;
+    color: white;
+}
+#one:hover{
+    background-color: green;
+}
+#one:active{
+    background-color:blue;
+    color: white;
+}
